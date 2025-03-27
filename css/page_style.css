@@ -1,0 +1,120 @@
+body{
+  background: #FCFBFF;
+}
+/* * About us Page Style */
+#hero_area{
+  margin-top: 70px;
+}
+#hero_area .col-md-6 h2{
+  font-size: 45px;
+  color: #342C5D;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#hero_area .col-md-6 p{
+  color:#8D89A1 ;
+}
+#hero_area .col-md-6 a{
+  text-decoration: none;
+  padding: 11px 15px;
+  background: #8A76FC;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px;
+  }
+  #hero_area .col-md-6 img{
+width: 100%;
+}
+
+/* * Section 2 */
+
+#section_2{
+  margin-top: 190px;
+}
+#section_2 .col-md-6 h3{
+font-size: 34px;
+color: #342C5D;
+font-weight: bold;
+}
+#section_2 .col-md-6 .box {
+  background: #fff;
+  box-shadow: 1px 1px 10px #ddd;
+  margin: 20px;
+  width: 350px;
+  height: 170px;
+  text-align: center;
+  border-radius: 10px;
+}
+#section_2 .col-md-6 .box h2{
+font-size: 45px;
+font-weight: bold;
+color: #342C5D;
+padding-top: 28px;
+}
+#section_2 .col-md-6 .box p{
+font-size: 20px;
+font-weight: 700;
+color:#8D89A1 ;
+}
+
+/* * section 3 */
+#section_3{
+  margin-top: 150px;
+}
+#section_3 .col-md-6 img{
+  width: 100%;
+  margin-left: -140px;
+}
+#section_3 .col-md-6 h3{
+font-size: 34px;
+font-weight: bold;
+color: #342C5D;
+margin-bottom: 40px;
+}
+#section_3 .col-md-6 p{
+color:#8D89A1 ;
+margin-bottom: 65px;
+}
+#section_3 .col-md-6 .mini_box {
+  background: #fff;
+  box-shadow: 1px 1px 10px #ddd;
+  width: 380px;
+  border-radius: 10px;
+  margin: 20px;
+}
+#section_3 .col-md-6 .mini_box img{
+width: 40px;
+float: left;
+margin-left: 10px;
+padding-top: 7px;
+}
+#section_3 .col-md-6 .mini_box h4{
+font-size: 20px;
+margin-left: 45px;
+padding: 10px;
+}
+
+/* * section_4 */
+#section_4{
+  margin-top: 195px;
+}
+#section_4 .col-md-6 h2{
+  font-size: 34px;
+  font-weight: bold;
+  color: #342C5D;
+  margin-top: 90px;
+}
+#section_4 .col-md-6 p{
+  color:#8D89A1 ;
+}
+#section_4 .col-md-6 a{
+  text-decoration: none;
+  padding: 11px 15px;
+  background: #8A76FC;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+#section_4 .col-md-6 img{
+width: 100%;
+}
