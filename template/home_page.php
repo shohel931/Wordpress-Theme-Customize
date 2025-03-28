@@ -26,27 +26,45 @@
 </section>
 
 
-<section id="stats_container">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-      <div class="icon">👥</div>
-        <h2>15k+</h2>
-        <p>Active Users</p>
+
+
+
+<section id="section_2">
+  <div class="main_box">
+    <div class="sub_box">
+      <div class="icon">
+      <?php $image = get_field('section_2_box_1_image');?>
+      <img src="<?php echo $image;?>" alt="">
       </div>
-      <div class="col-md-4">
-      <div class="icon">⬇️</div>
-        <h2>30k</h2>
-        <p>Total Downloads</p>
+      <div class="text">
+        <h2><?php echo get_field('section_2_box_1_title'); ?></h2>
+        <p><?php echo get_field('section_2_box_1_description'); ?></p>
       </div>
-      <div class="col-md-4">
-      <div class="icon">👤</div>
-        <h2>10k</h2>
-        <p>Customers</p>
+    </div>
+    <div class="sub_box">
+      <div class="icon">
+      <?php $image = get_field('section_2_box_2_image');?>
+        <img src="<?php echo $image;?>" alt="">
+      </div>
+      <div class="text">
+      <h2><?php echo get_field('section_2_box_2_title_'); ?></h2>
+      <p><?php echo get_field('section_2_box_2_description'); ?></p>
+      </div>
+    </div>
+    <div class="sub_box">
+      <div class="icon">
+      <?php $image = get_field('section_2_box_3_image_');?>
+        <img src="<?php echo $image;?>" alt="">
+      </div>
+      <div class="text">
+      <h2><?php echo get_field('section_2_box_3_title'); ?></h2>
+      <p><?php echo get_field('section_2_box_3_description'); ?></p>
       </div>
     </div>
   </div>
 </section>
+
+
 
 
 

@@ -171,7 +171,7 @@ line-height: 37px;
   color: blue;
   border: 1px solid blue;
   font-weight: 400;
-  border-radius: 10px;
+  border-radius: 10px; 
 }
 #section_5 .sub_box a.btn_1{
   background: #8A76FC;
@@ -182,4 +182,4 @@ line-height: 37px;
 /* * cover_item */
 #cover_item{
   margin-top: 100px;
-}
+} -

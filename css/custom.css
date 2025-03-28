@@ -194,10 +194,7 @@ width: 100%;
   font-weight: bold;
   color: #4C4570;
 }
-.icon {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
+
 #ultimate_goal{
   margin-top: 120px;
 }
@@ -225,11 +222,6 @@ width: 100%;
 }
 .small_box{
   display: flex;
-}
-.icon {
-  font-size: 25px;
-  margin-bottom: 10px;
-  padding: 0 10px;
 }
 
 #know_more{
@@ -349,4 +341,34 @@ font-weight: bold;
 text-decoration: none;
 font-size: 30px;
 font-weight: bold;
+}
+
+/* * Section 2 */
+#section_2 .main_box{
+  display: flex;
+  justify-content: center;
+}
+#section_2 .main_box .sub_box{
+  display: flex;
+  background: #fff;
+  width: 340px;
+  padding: 50px;
+}
+#section_2 .main_box .sub_box .icon {
+  width: 100%;
+}
+#section_2 .main_box .sub_box .icon img{
+width: 100%;
+padding: 5px 0;
+}
+#section_2 .main_box .sub_box .text{
+width: 300px;
+margin: 0 20px;
+}
+#section_2 .main_box .sub_box .text h2{
+font-weight: bold;
+color: #312E5D;
+}
+#section_2 .main_box .sub_box .text p{
+color: #8A86A1;
 }
