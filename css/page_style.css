@@ -118,3 +118,68 @@ padding: 10px;
 #section_4 .col-md-6 img{
 width: 100%;
 }
+
+/* *Section 5 */
+#section_5{
+  margin-top: 200px;
+}
+#section_5 .title_line{
+  text-align: center;
+}
+#section_5 .title_line h3{
+  font-size: 35px;
+  font-weight: 600;
+  color: #342C5D;
+}
+#section_5 .title_line p{
+  color:#8D89A1 ;
+}
+#section_5 .main_box{
+  display: flex;
+  justify-content: center;
+}
+#section_5 .main_box .sub_box{
+  background: #fff;
+  box-shadow: 1px 1px 10px #ddd;
+  margin: 10px;
+  width: 270px;
+  
+  border-radius: 10px;
+  padding: 25px;
+}
+#section_5 .sub_box h3{
+font-size: 30px;
+font-weight: bold;
+color: #342C5D;
+}
+#section_5 .sub_box h2{
+font-size: 37px;
+font-weight: bold;
+color: #8876FC;
+}
+#section_5 .sub_box p{
+color: #8D89A1;
+}
+#section_5 .sub_box ul li{
+color: #6A6585;
+font-weight: bold;
+line-height: 37px;
+}
+#section_5 .sub_box a{
+  text-decoration: none;
+  padding: 11px 15px;
+  color: blue;
+  border: 1px solid blue;
+  font-weight: 400;
+  border-radius: 10px;
+}
+#section_5 .sub_box a.btn_1{
+  background: #8A76FC;
+  color: #fff;
+  border: none;
+}
+
+/* * cover_item */
+#cover_item{
+  margin-top: 100px;
+}

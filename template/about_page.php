@@ -100,6 +100,58 @@ get_header(); ?>
 
 
 
+<section id="section_5">
+  <div class="title_line">
+  <h3><?php echo get_field('section_5_title');?></h3>
+  <p><?php echo get_field('section_5_title_description');?></p>
+  </div>
+<div class="main_box">
+  <div class="sub_box">
+  <h3><?php echo get_field('section_5_box_1_title'); ?></h3>
+        <p><?php echo get_field('section_5_box_1_title_description'); ?></p>
+        <ul>
+          <li><?php echo get_field('section_5_box_1_text_1'); ?></li>
+          <li><?php echo get_field('section_5_box_1_text_2'); ?></li>
+          <li><?php echo get_field('section_5_box_1_text_3'); ?></li>
+          <li><?php echo get_field('section_5_box_1_text_4'); ?></li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="btn_1" href="#"><?php echo get_field('section_5_box_1_button'); ?></a>
+  </div>
+  <div class="sub_box">
+  <h3><?php echo get_field('section_5_box_2_title_'); ?></h3>
+      <h2><?php echo get_field('section_5_box_2price'); ?></h2>
+        <p><?php echo get_field('section_5_box_2_title_description_'); ?></p>
+        <ul>
+          <li><?php echo get_field('section_5_box_2_text_1'); ?></li>
+          <li><?php echo get_field('section_5_box_2_text_2'); ?></li>
+          <li><?php echo get_field('section_5_box_2_text_3'); ?></li>
+          <li><?php echo get_field('section_5_box_2_text_4'); ?></li>
+        </ul>
+        <br>
+        <a href="#"><?php echo get_field('section_5_box_2_button'); ?></a>
+  </div>
+  <div class="sub_box">
+  <h3><?php echo get_field('section_5_box_3_title_'); ?></h3>
+      <h2><?php echo get_field('section_5_box_3_price'); ?></h2>
+        <p><?php echo get_field('section_5_box_3_title_description_'); ?></p>
+        <ul>
+          <li><?php echo get_field('section_5_box_3_text_1'); ?></li>
+          <li><?php echo get_field('section_5_box_3_text_2'); ?></li>
+          <li><?php echo get_field('section_5_box_3_text_3'); ?></li>
+          <li><?php echo get_field('section_5_box_3_text_4'); ?></li>
+        </ul>
+        <br>
+        <a href="#"><?php echo get_field('section_5_box_3_button'); ?></a>
+  </div>
+</div>
+</section>
+
+
+
 
 <section id="cover_item">
   <div class="container">
