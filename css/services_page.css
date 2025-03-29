@@ -1,0 +1,21 @@
+/* * Hero Area  */
+#hero_area{
+  margin-top: 100px;
+}
+#hero_area .col-md-4 h3{
+  font-size: 50px;
+  color: #38305F;
+  font-weight: bold;
+  line-height: 60px;
+}
+#hero_area .col-md-4 p{
+  color:#8D89A1 ;
+}
+#hero_area .col-md-4 a{
+  text-decoration: none;
+  padding: 11px 15px;
+  background: #8A76FC;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px;
+}

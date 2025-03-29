@@ -5,9 +5,11 @@ function css_js_fils_enqueue(){
   wp_register_style('bootstrap', get_template_directory_uri(  ). '/css/bootstrap.css', array(), '5.0.2', 'all');
   wp_register_style('custom', get_template_directory_uri(  ). '/css/custom.css', array(), '1.0.0', 'all');
   wp_register_style('page_style', get_template_directory_uri(  ). '/css/page_style.css', array(), '1.0.0', 'all');
+  wp_register_style('services_page', get_template_directory_uri(  ). '/css/services_page.css', array(), '1.0.0', 'all');
   wp_enqueue_style('bootstrap');
   wp_enqueue_style('custom');
   wp_enqueue_style('page_style');
+  wp_enqueue_style('services_page');
 
 //js
 wp_enqueue_script('jQuery');
