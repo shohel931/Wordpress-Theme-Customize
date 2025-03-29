@@ -16,5 +16,8 @@ wp_enqueue_script('jQuery');
 wp_enqueue_script('bootstrap', get_template_directory_uri(  ).'/js/bootstrap.js', array(), '5.0.2', true);
 wp_enqueue_script('main', get_template_directory_uri(  ).'/js/main.js', array(), '1.0.0', true);
 
+//Font Aousum CDN Link
+wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css', array(), '6.7.2', 'all');
+
 }
 add_action('wp_enqueue_scripts', 'css_js_fils_enqueue');
