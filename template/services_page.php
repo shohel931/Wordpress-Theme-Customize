@@ -33,57 +33,67 @@ get_header(); ?>
 
 
 
-<section id="section_2">
-  <div class="main_areas">
-  <div class="title_area">
-    <h2><?php echo get_field(''); ?> Better Agency/SEO Solution At <br> Your Fingertips</h2>
+
+
+
+
+<section id="section_2_1">
+<div class="title_area">
+    <h2><?php echo get_field('section_2_title'); ?></h2>
   </div>
-  <div class="box_main">
-    <div class="sub_box">
-      <img src="<?php echo get_template_directory_uri(  ). '/img/fff.png' ?>" alt="">
-      <h4><?php echo get_field(''); ?> Analytics And Reporting</h4>
-      <p><?php echo get_field(''); ?> Increase your team's productivity <br> and save time with a bot that <br> answers and fields customer <br> inquiries</p>
-      <br>
-      <a href="#"><?php echo get_field(''); ?> Read details <i class="fa-solid fa-arrow-right"></i></a>
-    </div>
-    <div class="sub_box">
-    <img src="<?php echo get_template_directory_uri(  ). '/img/fff.png' ?>" alt="">
-      <h4><?php echo get_field(''); ?> Analytics And Reporting</h4>
-      <p><?php echo get_field(''); ?> Increase your team's productivity <br> and save time with a bot that <br> answers and fields customer <br> inquiries</p>
-      <br>
-      <a href="#"><?php echo get_field(''); ?> Read details <i class="fa-solid fa-arrow-right"></i></a>
-    </div>
-    <div class="sub_box">
-    <img src="<?php echo get_template_directory_uri(  ). '/img/fff.png' ?>" alt="">
-      <h4><?php echo get_field(''); ?> Analytics And Reporting</h4>
-      <p><?php echo get_field(''); ?> Increase your team's productivity <br> and save time with a bot that <br> answers and fields customer <br> inquiries</p>
-      <br>
-      <a href="#"><?php echo get_field(''); ?> Read details <i class="fa-solid fa-arrow-right"></i></a>
-    </div>
-    <div class="sub_box">
-    <img src="<?php echo get_template_directory_uri(  ). '/img/fff.png' ?>" alt="">
-      <h4><?php echo get_field(''); ?> Analytics And Reporting</h4>
-      <p><?php echo get_field(''); ?> Increase your team's productivity <br> and save time with a bot that <br> answers and fields customer <br> inquiries</p>
-      <br>
-      <a href="#"><?php echo get_field(''); ?> Read details <i class="fa-solid fa-arrow-right"></i></a>
-    </div>
-    <div class="sub_box">
-    <img src="<?php echo get_template_directory_uri(  ). '/img/fff.png' ?>" alt="">
-      <h4><?php echo get_field(''); ?> Analytics And Reporting</h4>
-      <p><?php echo get_field(''); ?> Increase your team's productivity <br> and save time with a bot that <br> answers and fields customer <br> inquiries</p>
-      <br>
-      <a href="#"><?php echo get_field(''); ?> Read details <i class="fa-solid fa-arrow-right"></i></a>
-    </div>
-    <div class="sub_box">
-    <img src="<?php echo get_template_directory_uri(  ). '/img/fff.png' ?>" alt="">
-      <h4><?php echo get_field(''); ?> Analytics And Reporting</h4>
-      <p><?php echo get_field(''); ?> Increase your team's productivity <br> and save time with a bot that <br> answers and fields customer <br> inquiries</p>
-      <br>
-      <a href="#"><?php echo get_field(''); ?> Read details <i class="fa-solid fa-arrow-right"></i></a>
-    </div>
+
+<div class="main_solution">
+  <div class="sub_solution">
+  <?php $image = get_field('section_2__box_1_image');?>
+      <img src="<?php echo $image;?>" alt="">
+      <h4><?php echo get_field('section_2__box_1_title'); ?></h4>
+      <p><?php echo get_field('section_2__box_1_title_description'); ?></p>
+      <a href="#"><?php echo get_field('section_2__box_1_button'); ?> <i class="fa-solid fa-arrow-right"></i></a>
   </div>
+  <div class="sub_solution">
+  <?php $image = get_field('section_2__box_2_image');?>
+      <img src="<?php echo $image;?>" alt="">
+      <h4><?php echo get_field('section_2__box_2_title_'); ?></h4>
+      <p><?php echo get_field('section_2__box_2_title_description'); ?></p>
+      <a href="#"><?php echo get_field('section_2__box_2_button'); ?> <i class="fa-solid fa-arrow-right"></i></a>
   </div>
+  <div class="sub_solution">
+  <?php $image = get_field('section_2__box_3_image_');?>
+      <img src="<?php echo $image;?>" alt="">
+      <h4><?php echo get_field('section_2__box_3_title_'); ?></h4>
+      <p><?php echo get_field('section_2__box_3_title_description_'); ?> </p>
+      <a href="#"><?php echo get_field('section_2__box_3_button_'); ?> <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</div>
+
+<div class="main_solution2">
+  <div class="sub_solution">
+  <?php $image = get_field('section_2__box_4_image_');?>
+      <img src="<?php echo $image;?>" alt="">
+      <h4><?php echo get_field('section_2__box_4_title'); ?></h4>
+      <p><?php echo get_field('section_2__box_4_title_description'); ?></p>
+      <a href="#"><?php echo get_field('section_2__box_4_button'); ?> <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  <div class="sub_solution">
+  <?php $image = get_field('section_2__box_5_image');?>
+      <img src="<?php echo $image;?>" alt="">
+  <h4><?php echo get_field('section_2__box_5_title_'); ?></h4>
+      <p><?php echo get_field('section_2__box_5_title_description_'); ?></p>
+      <a href="#"><?php echo get_field('section_2__box_5_button_'); ?> <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+  <div class="sub_solution">
+  <?php $image = get_field('section_2__box_6_image_');?>
+      <img src="<?php echo $image;?>" alt="">
+      <h4><?php echo get_field('section_2__box__6_title_'); ?></h4>
+      <p><?php echo get_field('section_2__box_6_title_description_'); ?></p>
+      <a href="#"><?php echo get_field('section_2__box_6_button'); ?> <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
+</div>
 </section>
+
+
+
+
 
 
 
