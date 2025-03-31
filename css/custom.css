@@ -372,3 +372,18 @@ color: #312E5D;
 #section_2 .main_box .sub_box .text p{
 color: #8A86A1;
 }
+
+
+/* * Blog Page */
+
+/* * blog_area */
+#blog_area{
+  margin-top: 100px;
+}
+#blog_area .main_blog{
+  display: flex;
+  justify-content: center;
+}
+.main_blog .sub_blog{
+  margin:0 20px;
+}
