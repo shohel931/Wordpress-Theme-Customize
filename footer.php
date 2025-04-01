@@ -1,4 +1,13 @@
 
+
+<section id="bxslider">
+<div class="slider">
+  <div>I am a slide.</div>
+  <div>I am another slide.</div>
+</div>
+</section>
+
+
 <footer id="footer_area">
 
 <section id="cover_item">
