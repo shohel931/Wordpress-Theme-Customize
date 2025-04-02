@@ -15,5 +15,8 @@ include_once('inc/widgets_register.php');
 include_once('inc/enqueue_register.php');
 
 
+// custom_posts
+include_once('inc/custom_posts.php');
+
 
 

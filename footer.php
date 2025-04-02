@@ -2,10 +2,25 @@
 
 <section id="bxslider">
 <div class="slider">
-  <div>I am a slide.</div>
-  <div>I am another slide.</div>
+<?php 
+      query_posts('post_type=slider&post_status=publish&posts_per_page=6&paged='.
+      get_query_var('post'));
+
+      if(have_posts()) :
+         while(have_posts()) : the_post();
+         ?>
+      <div>
+        <?php echo the_post_thumbnail('slider'); ?>
+      </div>
+    <?php
+     endwhile;
+    endif;
+    ?>
+  </div>
 </div>
 </section>
+
+
 
 
 <footer id="footer_area">

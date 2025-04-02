@@ -387,3 +387,10 @@ color: #8A86A1;
 .main_blog .sub_blog{
   margin:0 20px;
 }
+
+
+/* * Slider */
+#bxslider{
+  width: 100%;
+  height: auto;
+}

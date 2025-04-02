@@ -56,3 +56,4 @@ function mytheme_logo($wp_customize){
 }
 add_action('customize_register', 'mytheme_logo');
 
+
