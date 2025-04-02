@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Medium Layout: 1280px.
+   ========================================================================== */
+   @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    #header_area .col-md-5 ul{
+      font-family: "Oswald", sans-serif;
+      margin: 10px 0 0;
+      padding: 0;
+      list-style: none;
+      text-align: right;
+      font-size: 12px;
+  }  
+    
+    
+    
+    
+    
+    
+    
+    
+   }
+   /* ==========================================================================
+      Tablet Layout: 768px. 
+      ========================================================================== */
+   @media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+       
+
+       
+       
+       
+       
+       
+       
+    
+       
+       
+   }
+   /* ==========================================================================
+      Wide Mobile Layout: 480px.
+      ========================================================================== */
+   @media only screen and (min-width: 200px) and (max-width: 767px) { 
+   
+       
+    .slicknav_menu{
+      display: block;
+    }
+    #header_area .col-md-5, .col-md-4{
+      display: none;
+    }
+       
+       
+
+    .slicknav_nav, .slicknav_nav ul {
+      list-style: none;
+      overflow: hidden;
+      width: 330px;
+  }
+       
+  .slicknav_btn {
+    background-color: #9f0625;
+    border-radius: 2px;
+    margin: 5px 5px 6px;
+    right: 5px;
+    text-decoration: none;
+    top: 5px;
+    z-index: 2147483647;
+}
+       
+#header_area .col-md-3 a img{
+  width: 170px;
+}       
+#homepage_section .col-md-6 h1 {
+font-size: 30px;
+}
+#homepage_section .col-md-6 p {
+font-size: 13px;
+}
+       
+
+#section_2 .main_box {
+display: inline;
+}
+   
+#homepage_section .col-md-6 img {
+  width: 100%;
+  margin-top: 30px;
+}
+#section_2 .main_box .sub_box{
+  display: inline;
+}
+#section_2 .main_box .sub_box .icon img {
+  width: 150px;
+  padding: 5px 0;
+margin: 0 95px;
+}
+#section_2 .main_box .sub_box .text h2 {
+  font-size: 50px;
+  text-align: center;
+}
+#section_2 .main_box .sub_box .text p {
+  text-align: center;
+}
+   }
+   

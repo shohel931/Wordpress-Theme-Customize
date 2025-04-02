@@ -18,6 +18,12 @@ h6 {
   font-family: "Oswald", sans-serif;
   line-height: 1.5em;
 }
+
+.slicknav_menu{
+  display: none;
+}
+
+
 /*
 * Header Area Style
 */
