@@ -400,3 +400,45 @@ color: #8A86A1;
   width: 100%;
   height: auto;
 }
+
+
+/* * Contact Page */
+#hero_area_1{
+  margin-top: 60px;
+}
+#hero_area_1 .col-md-12 h2{
+  font-size: 50px;
+  color: #312E5D;
+  font-weight: bold;
+}
+#hero_area_1 .col-md-12 p{
+color: #A09C9B;
+}
+
+.main_box{
+  display: flex;
+}
+.box_text {
+  margin: 0 -15px;
+}
+.box_text input {
+width: 280px;
+font-weight: bold;
+margin: 20px 10px;
+border: none;
+border-bottom: 2px solid #A09C9B;
+}
+#message{
+  width: 584px;
+}
+.sub_box_text{
+  margin-left: 300px;
+}
+.sub_box_text .contact{
+  margin-bottom: 20px;
+}
+.sub_box_text .contact h3{
+font-size: 25px;
+font-weight: bold;
+color: #74708D;
+}
