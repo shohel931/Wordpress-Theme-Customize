@@ -19,7 +19,7 @@
       
       </div>
       <div class="col-md-4">
-        <a class="login_btn" href="<?php is_login(); ?>">Login</a>
+        <a class="login_btn" href="#">Login</a>
         <a class="sing_btn" href="#">Sing up</a>
       </div>
     </div>

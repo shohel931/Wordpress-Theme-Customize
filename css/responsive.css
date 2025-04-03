@@ -183,4 +183,28 @@ display: inline;
 #section_4 {
   margin-top: 0px;
 }
-  }
+#message {
+  width: 380px;
+}
+.main_box {
+  display: inline;
+}
+#hero_area_1 .col-md-12 h2 {
+  font-size: 37px;
+}
+.sub_box_text {
+  margin-left: 0px;
+}
+.box_text input {
+  width: 380px;
+}
+#cover_item .col-md-12 h2 {
+  margin-top: 12px;
+  font-size: 12px;
+}
+#cover_item .col-md-12 p {
+  padding: 0px;
+  font-size: 10px;
+}
+
+}
